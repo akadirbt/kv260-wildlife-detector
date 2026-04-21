@@ -53,13 +53,13 @@ AP1302 ISP  ──►  GStreamer mediasrcbin
 ## Demo
 
 ### Live Detection — 67 FPS (final C++ pipeline)
-![Terminal 67 FPS](assets/demo2.jpg)
+![Terminal 67 FPS](assets/demo_final.JPEG)
 
 ### RTSP Stream — Fox Detection (early Python pipeline, 25.5 FPS)
-![Fox RTSP stream](assets/demo1.png)
+![Fox RTSP stream](assets/demo1.JPEG)
 
 ### Training Results — YOLOv5s, 20 epochs
-![Training results](assets/demo_train.jpg)
+![Training results](assets/demo.png)
 
 | Class | P | R | mAP50 |
 |-------|---|---|-------|
