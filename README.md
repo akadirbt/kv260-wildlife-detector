@@ -50,6 +50,31 @@ AP1302 ISP  ──►  GStreamer mediasrcbin
 
 ---
 
+## Demo
+
+### Live Detection — 67 FPS (final C++ pipeline)
+![Terminal 67 FPS](assets/terminal_67fps.jpg)
+
+### RTSP Stream — Fox Detection (early Python pipeline, 25.5 FPS)
+![Fox RTSP stream](assets/fox_rtsp.png)
+
+### Training Results — YOLOv5s, 20 epochs
+![Training results](assets/training_results.jpg)
+
+| Class | P | R | mAP50 |
+|-------|---|---|-------|
+| skunk | 0.973 | 0.947 | 0.990 |
+| deer | 0.832 | 0.884 | 0.909 |
+| raccoon | 0.836 | 0.800 | 0.892 |
+| turkey | 1.000 | 0.766 | 0.877 |
+| bear | 0.940 | 0.716 | 0.816 |
+| possum | 0.904 | 0.700 | 0.772 |
+| fox | 0.652 | 0.900 | 0.762 |
+| coyote | 0.765 | 0.579 | 0.751 |
+| **all** | **0.863** | **0.787** | **0.846** |
+
+---
+
 ## Hardware
 
 - **Board:** Xilinx/AMD Kria KV260 Vision AI Starter Kit
